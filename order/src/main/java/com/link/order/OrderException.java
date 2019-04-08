@@ -1,5 +1,7 @@
 package com.link.order;
 
+import com.link.order.enums.ResultEnum;
+
 public class OrderException extends RuntimeException {
 
     private Integer code;
@@ -9,9 +11,9 @@ public class OrderException extends RuntimeException {
         this.code = code;
     }
 
-    public OrderException() {
-        super(message);
-        this.code = code;
+    public OrderException(ResultEnum resultEnum) {
+        super(resultEnum.getMessage());
+        this.code = resultEnum.getCode();
     }
 
 
