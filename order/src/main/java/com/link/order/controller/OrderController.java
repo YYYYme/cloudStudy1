@@ -1,6 +1,6 @@
 package com.link.order.controller;
 
-import com.link.order.OrderException;
+import com.link.order.exception.OrderException;
 import com.link.order.VO.ResultVO;
 import com.link.order.converter.OrderForm2OrderDTOConverter;
 import com.link.order.dto.OrderDTO;

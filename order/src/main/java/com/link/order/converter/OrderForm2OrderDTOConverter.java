@@ -2,7 +2,7 @@ package com.link.order.converter;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.link.order.OrderException;
+import com.link.order.exception.OrderException;
 import com.link.order.dataObject.OrderDetail;
 import com.link.order.dto.OrderDTO;
 import com.link.order.enums.ResultEnum;

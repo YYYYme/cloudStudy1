@@ -13,3 +13,7 @@ spring:
     url: jdbc:mysql://118.24.114.116:3306/spring_cloud_sell?serverTimezone=Asia/Shanghai&characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: true
+  redis:
+    host: 127.0.0.1
+#    cluster:
+#      nodes: 10.3.1.4:7000,10.3.1.4:7001,...,10.3.1.4:7008
